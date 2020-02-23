@@ -9,7 +9,9 @@
   "rules": {
     "import/no-unresolved": 0,
     "react/jsx-filename-extension": 0,
-    "no-use-before-define": 0
+    "no-use-before-define": 0,
+    "react/prefer-stateless-function": 0,
+    "no-trailing-spaces": 0
   },
   "parser": "babel-eslint"
 }
