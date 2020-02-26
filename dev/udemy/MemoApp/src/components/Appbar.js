@@ -6,7 +6,7 @@ class Appbar extends React.Component {
     return (
       <View style={styles.appbar}>
         <View>
-          <Text style={styles.appbarTitle}>MEMOT</Text>
+          <Text style={styles.appbarTitle}>MmoPad</Text>
         </View>
       </View>
 
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     right: 0,
     height: 78,
     paddingTop: 30,
-    backgroundColor: '#265366',
+    backgroundColor: '#f5deb3',
     justifyContent: 'center',
     alignItems: 'center',
     shadowColor: '#000',
@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
     zIndex: 10,
   },
   appbarTitle: {
-    color: '#fff',
-    fontSize: 18,
+    color: '#000',
+    fontSize: 20,
   },
 });
 

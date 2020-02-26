@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
   memoHeader: {
     height: 100,
-    backgroundColor: '#17313c',
+    backgroundColor: '#d2b48c',
     justifyContent: 'center',
     padding: 10,
   },

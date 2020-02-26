@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   memoListItem: {
     padding: 16,
     borderBottomWidth: 1,
-    borderBottomColor: '#ddd',
+    borderBottomColor: '#f5f5f5',
     backgroundColor: '#fff',
   },
   memoTitle: {
