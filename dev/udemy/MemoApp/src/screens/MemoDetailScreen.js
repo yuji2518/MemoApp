@@ -25,6 +25,7 @@ class MemoDetailScreen extends React.Component {
           symbol={'\uf303'}
           style={styles.editButton}
           color="white"
+          onPress={() => { this.props.navigation.navigate('MemoEdit'); }}
         />
       </View>
 

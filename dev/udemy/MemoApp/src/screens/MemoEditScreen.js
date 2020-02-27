@@ -13,6 +13,7 @@ class MemoEditScreen extends React.Component {
         />
         <CircleButton
           symbol={'\uf00c'}
+          onPress={() => { this.props.navigation.navigate('MemoList'); }}
         />
       </View>
 
